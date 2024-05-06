@@ -28,9 +28,9 @@
 }
 
 .landing {
-    background: black url(https://ismaaeel-a.github.io/allimages/Images/office1.png) no-repeat ;
+    background: black url(https://ismaaeel-a.github.io/allimages/Images/office1.png) no-repeat;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 
     min-width: 100vw;
     min-height: 100vh;
@@ -42,3 +42,30 @@
     background-color: rgba(213, 213, 213, 0.656);
     box-shadow: 0 0 30px var(--light);
 }
+
+.about {
+    min-width: 100vw;
+    min-height: 100vh;
+
+    background-color: var(--More);
+    padding-top: 80px;
+    padding-left: 50px;
+
+    & h2 {
+        text-decoration: underline;
+    }
+
+    & p {
+        margin-inline: auto;
+    }
+
+    & img {
+        float: left;
+        width: 60%;
+        aspect-ratio: 1/2;
+    }
+}
+
+/* .portrait {
+
+} */
