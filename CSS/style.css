@@ -20,7 +20,25 @@
 }
 
 .offcanvas {
-    background: linear-gradient( 135deg, var(--Accent), var(--Primary));
+    background: linear-gradient(135deg, var(--Accent), var(--Primary));
 }
 
-.nav-link:hover{color: var(--Secondary);}
+.nav-link:hover {
+    color: var(--Secondary);
+}
+
+.landing {
+    background: black url(https://ismaaeel-a.github.io/allimages/Images/office1.png) no-repeat ;
+    background-size: cover;
+    background-position: center; 
+
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.quote {
+    color: black;
+    margin-top: 50px;
+    background-color: rgba(213, 213, 213, 0.656);
+    box-shadow: 0 0 30px var(--light);
+}
